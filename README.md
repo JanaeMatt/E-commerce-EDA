@@ -15,9 +15,12 @@ Insights and recommendations are based on the following areas
 - Market Segmentation
 - Oppurtunity & Risk Assesment
 
-- Tableau Dashboard
-- SQL Queries
-- Download Dataset
+
+Tableau Dashboard
+
+ SQL Queries
+ 
+Download Dataset
 
 
 
