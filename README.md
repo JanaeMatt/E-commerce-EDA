@@ -23,4 +23,13 @@ Tableau Dashboard
 Download Dataset
 
 
+ # Executive Summary
+
+ Delayed prenatal care is associated with a median reduction of 0.2 weeks (1.4 days) in gestational age. While average birth timing remains relatively stable across demographic groups, delayed care significantly increases variability particularly in the South and Midwest. The effect magnitude differs across racial groups, suggesting diversified risk patterns. These findings indicate that delayed prenatal care functions as an early warning indicator for concentrated risk in underserved populations.
+
+The objective is to support healthcare systems and public health programs in targeting interventions where delayed prenatal care has the greatest measurable impact.
+
+
+Below is the overview page from the dashboard and more examples are included throughout the report. The entire interactive dashboard can be viewed 
+
 
