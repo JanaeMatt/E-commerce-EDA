@@ -10,8 +10,14 @@ These findings underscore that maximizing revenue requires more than expanding p
 
 
 Insights and recommendations are based on the following areas
-- Product level performance
-- Sales trend analysis
+- Revenue Driven Analysis
+- Geographic Performance Context
+- Market Segmentation
+- Oppurtunity & Risk Assesment
+
+- Tableau Dashboard
+- SQL Queries
+- Download Dataset
 
 
 
