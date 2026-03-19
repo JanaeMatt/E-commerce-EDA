@@ -40,4 +40,36 @@ Together, these findings indicate that revenue growth opportunities lie not only
 
 . The entire interactive dashboard can be viewed 
 
+# Data Structure
+
+The dataset used consists of 4 tables: Invoice, InvoiceItem, Product, and Customer.
+The dataset is organized using a relational structure centered on the InvoiceItem table. This table functions as the primary fact table and contains one row per line item purchased, including:
+
+- InvoiceNo
+
+- StockCode
+
+- Quantity
+
+- UnitPrice
+
+  
+The Invoice Item table connects to two dimension/reference tables, Invoice and Product, while the Invoice table itself connects to the Customer table:
+
+
+Invoice -  contains InvoiceNo (PK), InvoiceDate, TotalRevenue, and CustomerID (FK)
+
+Product  -  contains StockCode (PK), Description, and UnitPrice
+
+Customer - contains CustomerID (PK) and Country
+
+
+Each dimension table contains a primary key that links back to the central transaction record. This normalized structure reduces redundancy, maintains categorical consistency, and enables clean segmentation across product and customer groups. The design resembles a simplified star schema commonly used in retail analytics and business intelligence environments.
+
+
+The Invoice → Customer relationship is many-to-one, meaning multiple invoices can belong to a single customer. The InvoiceItemtable bridges Invoice and Product in a many-to-many relationship, resolved through a junction table pattern where each row represents a single product line within a given invoice.
+
+
+Although focused on e-commerce transactions, this structure reflects widely used analytic dimensions across industries, including time (InvoiceDate), geography (Country), product catalog (Product), and measurable outcome variables (Quantity, UnitPrice, TotalRevenue).
+
 
