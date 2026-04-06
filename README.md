@@ -1,5 +1,5 @@
 # E-Commerce-EDA
-This analysis examines transactional data from a UK-based online retail company specializing in unique all-occasion gifts, with a significant wholesaler customer base. The dataset spans December 1, 2010, to December 9, 2011, capturing a critical year of operations and growth patterns.
+This analysis examines transactional data from a UK-based online retail company specializing in unique all-occasion gifts, with a significant wholesaler customer base. The dataset spans December 1, 2010 to December 9, 2011 capturing a critical year of operations and growth patterns.
 
 
 # Project Background
