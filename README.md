@@ -72,4 +72,5 @@ The Invoice → Customer relationship is many-to-one, meaning multiple invoices 
 
 Although focused on e-commerce transactions, this structure reflects widely used analytic dimensions across industries, including time (InvoiceDate), geography (Country), product catalog (Product), and measurable outcome variables (Quantity, UnitPrice, TotalRevenue).
 
+<img width="650" height="600" alt="image" src="https://github.com/user-attachments/assets/bede8460-36f1-414d-ba54-7d96b221935c" />
 
